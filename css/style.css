@@ -1,0 +1,165 @@
+/* DINH DANG CHUNG */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333333;
+}
+
+/* DAU TRANG */
+header {
+    background-color: #1687ad;
+    color: white;
+    padding: 20px;
+}
+
+.tieu-de {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.ten-website {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.ten-website h1,
+.ten-website h2 {
+    margin: 5px 0;
+}
+
+.ten-website p {
+    margin: 6px 0;
+}
+
+/* THANH MENU */
+nav {
+    background-color: #075b78;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* NOI DUNG */
+main {
+    width: 90%;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+main h2,
+main h3 {
+    color: #075b78;
+}
+
+main p,
+main li {
+    line-height: 1.6;
+}
+
+/* BANG TOUR */
+.bang-tour {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.bang-tour td {
+    width: 33%;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.bang-tour img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+/* NUT BAM */
+.nut,
+button {
+    background-color: #1687ad;
+    color: white;
+    border: 1px solid #1687ad;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nut {
+    display: inline-block;
+}
+
+/* BIEU MAU LIEN HE */
+form {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    max-width: 90%;
+}
+
+/* CHAN TRANG */
+footer {
+    background-color: #075b78;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    color: #ffec8b;
+}
+
+/* MAN HINH NHO */
+@media (max-width: 700px) {
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .ten-website h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .bang-tour,
+    .bang-tour tbody,
+    .bang-tour tr,
+    .bang-tour td {
+        display: block;
+        width: auto;
+    }
+}
